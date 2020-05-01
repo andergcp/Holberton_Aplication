@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+ 
+  <head>
+    <title>
+      Daily Life Edu4Life
+    </title>
+    <meta charset="UTF-8" lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="behavior.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">-->
+  </head>
+  
+  <body class="works_on_smartphone">
+    <!-- Script para el botón compartir de Fb: --> 
+   <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v5.0"></script> 
+          
+    <header>
+        <!-- Inicio código botones compartir en redes -->
+        <div class="right">
+            <div class="fb-share-button" data-href="http://54.159.77.166/index.html" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F54.159.77.166%2Findex.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <!-- Fin código botones compartir en redes -->
+        
+        <!-- Inicio código menú de navegación -->
+        <input type="checkbox" id="check_menu">
+        <label for="check_menu"><img src="https://img2.freepng.es/20180422/syq/kisspng-computer-icons-hamburger-button-menu-download-campus-theme-5adcc7a0067589.3627365315244184640265.jpg" alt="check_menu"></label>
+        <div class="nav_menu">
+            <ul>
+                <li id="logo"><a href="index.html"><img src="https://scontent.fbog2-1.fna.fbcdn.net/v/t1.0-9/80389861_10219157759392923_8269767152567844864_n.jpg?_nc_cat=100&_nc_ohc=saR5vWzodlMAQl3Nu5dupm8B3nP--6BNIWZ_HhZYH4lc_V-qB7qxj1drw&_nc_ht=scontent.fbog2-1.fna&oh=e2c970e51b88d19d94b7f0c47ff92df6&oe=5EABBCF8" alt="edu4life_logo"></a></li>
+                <li> <a href="index.html" class="btn">Home</a></li>
+                <li> <a href="subjects.html" class="btn">Subjects</a></li>
+                <li> <a href="dailylife.html" class="btn_active">Daily Life</a></li>
+                <li> <a href="tweets.html" class="btn">Tweets</a></li>
+            </ul>
+        </div>   
+        <!-- Fin código menú de navegación -->
+        
+    </header>
+    
+    <main>
+       
+        <article>
+           
+            <h1>How's the life in our schools?</h1><br><br>
+            <img src="https://i.pinimg.com/originals/a6/9b/16/a69b16105ad3612ca3287866840302f1.jpg" alt="montessori_classroom">
+            <p>Education doesn't have to be a bored experience, it could be fun and could create great memories in our children's minds.</p><br><br>
+            <h2>Diverse classroom</h2><br><br>
+            <img src="https://www.greatschools.org/gk/wp-content/uploads/2015/08/Diversity-classroom-360x180.jpg" alt="diverse_classroom" id="diverse_classroom"><br><br>
+            <p>We want to our children have a wide mindset, in order to get that our classroom are diverse, about age, about cultures, religions and so on.<br><br>
+            All this enriches the learning process.<br><br>
+            </p>
+            <h3>Specialized and diverse campus</h3><br><br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-W1eLVHqlmKCPR5yWUpVgSVGfbfIr7OMB8XaYMjWirWg1HenY&s" alt="laboratory" id="laboratory"><br><br>
+            <p>We provide specialized spaces for developing children's skills.</p>
+            <p>These are some rooms:</p>
+                <ul>
+                    <li>Tech</li>
+                    <li>Scenic arts</li>
+                    <li>Music</li>
+                    <li>Football</li>
+                    <li>Swimming pool</li>
+                    <li>Science Laboratory</li>                  
+
+                </ul>
+            
+            
+            <br>
+            <br>
+            <br>
+            <!-- Botón me gusta Fb-->
+            <div class="fb-like" data-href="http://54.159.77.166/dailylife.html" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+            
+        </article>
+        
+        <aside>
+            <div id="disqus_thread"></div>
+            <script>
+
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://edu4life.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>        
+        </aside>
+        
+    </main>
+    
+    <footer>
+        <p>Made by <a href="https://twitter.com/@andergcp" target="_blank">Änderson Castiblanco</a> for <a href="https://www.holbertonschool.com" target="_blank">Holberton School</a></p>
+    </footer>
+    
+   </body>
+   
+</html>
+
